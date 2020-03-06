@@ -3,19 +3,19 @@ A shell script for installing useful software and initializing relative settings
 
 Just execute the command below
 ```shell
-sudo sh -c "$(wget https://raw.githubusercontent.com/howardhhm/"`
+sudo sh -c "$(wget https://raw.githubusercontent.com/ssmbct-netops/"`
 `"ubuntu-init/master/init_linux.sh -O -)"
 ```
 <!-- or
 ```shell
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/howardhhm/ubuntu-init/master/Linux_init.sh)"
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ssmbct-netops/ubuntu-init/master/Linux_init.sh)"
 ``` -->
 
 ## ubuntu-init for servers
 some software are worthless for server
 ```shell
 sudo sh -c "export HHM_UBUNTU_INIT_SERVER='1';"`
-`"$(wget https://raw.githubusercontent.com/howardhhm/ubuntu-init/"`
+`"$(wget https://raw.githubusercontent.com/ssmbct-netops/ubuntu-init/"`
 `"master/init_linux.sh -O -)"
 ```
 
